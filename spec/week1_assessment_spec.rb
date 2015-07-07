@@ -30,7 +30,6 @@ describe Weapon do
   end
 
 
-
 end
 
 
@@ -188,7 +187,7 @@ describe BattleBot do
 
 
     describe '#enemies' do
-      let(:bot3){ Bot.new "BazBot"}
+      let(:bot3){ BattleBot.new "BazBot"}
 
       it 'starts returning a blank array' do
         expect(bot.enemies).to eq([])
